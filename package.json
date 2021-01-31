@@ -1,0 +1,26 @@
+{
+  "name": "server-node-with-react-course",
+  "version": "0.0.0",
+  "private": true,
+  "engines": {
+    "node": "14.15.4",
+    "npm": "6.14.10"
+  },
+  "scripts": {
+    "start": "node routes/index.js",
+    "dev": "nodemon routes/index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "cookie-session": "^1.4.0",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.11.13",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0",
+    "pug": "2.0.0-beta11"
+  }
+}
